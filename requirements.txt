@@ -1,0 +1,9 @@
+%%writefile requirements.txt
+fastapi
+uvicorn
+langserve
+langgraph
+langchain-core
+sse_starlette
+google-generativeai
+langchain-google-genai
