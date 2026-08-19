@@ -14,7 +14,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # --- LLM ---
 llm_flash = ChatGoogleGenerativeAI(
     model="gemini-3.1-flash-lite-preview",  # verify this model id is valid for your key
-    google_api_key=os.environ.get("GOOGLE_APIKEY"),
+    google_apikey=os.environ.get("GOOGLE_APIKEY"),
     temperature=0,
 )
 
