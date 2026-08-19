@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import sys, io, os, traceback
 from typing import TypedDict, List, Optional
 import uvicorn
